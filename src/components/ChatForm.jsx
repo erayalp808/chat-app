@@ -11,6 +11,11 @@ function ChatForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    if (!message || /^\s*$/.test(message)) {
+      setMessage('');
+      return;
+    }
+
     setMessages([...messages, {message, fromMe: true}])
     sendMessage(message);
     setMessage("")
