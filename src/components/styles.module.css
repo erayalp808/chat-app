@@ -11,15 +11,14 @@
     width: 80%;
     margin: 40px auto 0 auto;
     background-color: cornsilk;
-    overflow: hidden;
+    overflow: auto;
   }
-  
-  .chatlist > div {
+
+  .messages {
     display: flex;
     flex-direction: column;
     height: 400px;
     overflow: auto;
-    overflow-y: auto;
   }
 
   .form {
