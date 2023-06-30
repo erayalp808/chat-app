@@ -11,7 +11,7 @@ function ChatForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    setMessages([...messages, {message}])
+    setMessages([...messages, {message, fromMe: true}])
     sendMessage(message);
     setMessage("")
   }
