@@ -23,6 +23,7 @@ function ChatForm() {
         className={styles.textInput}
         value={message}
         onChange={(e) => setMessage(e.target.value)}
+        placeholder='message...'
         />
       </form>
     </div>
