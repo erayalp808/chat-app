@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .container {
   display: flex;
   flex-direction: column;
@@ -10,7 +12,7 @@
     height: 400px;
     width: 80%;
     margin: 40px auto 0 auto;
-    background-color: cornsilk;
+    background-color: rgba(215, 23, 23, 0.304);
     overflow: auto;
   }
 
@@ -26,6 +28,7 @@
   }
   
   .textInput {
+    font-family: 'Poppins', sans-serif;
     border: solid 1px #ddd;
     padding: 10px;
     width: 100%;
@@ -34,6 +37,7 @@
   }
   
   .chatItem {
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     color: #333;
     border-radius: 8px;
