@@ -19,6 +19,7 @@
     flex-direction: column;
     height: 400px;
     overflow: auto;
+    overflow-y: auto;
   }
 
   .form {
