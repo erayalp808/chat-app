@@ -1,6 +1,6 @@
 # Node + Socket.IO + React Chat App (Backend)
 
-### Kullanılan Teknolojiler
+### Technologies that been used
 
 - Node.js
 - Express.js
